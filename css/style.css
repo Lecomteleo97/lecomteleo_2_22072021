@@ -7,7 +7,7 @@ body{
 }
 header{
     display: flex;
-	border: 1px black solid;
+	border: 0px black solid;
 	justify-content: space-between;
 	background-color: white;
 	margin-top: 0;
@@ -22,9 +22,10 @@ header{
 #navigation li{
     display: inline;
 	margin-right: 10px;
+
 }
 #navigation{
-	border:1px solid black;
+	border:0px solid black;
 	margin-top: 40px;
     margin-right: 30px;
 	display: inline-flex;
@@ -32,4 +33,28 @@ header{
     justify-content: space-between;
     width: 400px;
     height: 30px;
+}
+span:hover{
+    border-top: 2px solid #0065FC;
+    padding-top: 40px;
+    color: #0065FC
+}
+span.heberg{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+span.acti{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+span.inscrire{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #0065FC;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color:black;
+    
 }
