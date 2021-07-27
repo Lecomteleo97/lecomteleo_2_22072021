@@ -3,6 +3,8 @@
     <head>
 <meta charset="utf-8"/>
 
+<script src="https://kit.fontawesome.com/a62f33971a.js" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="css/style.css" />
 <title></title>
 </head>
@@ -23,7 +25,19 @@
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <p>En plein centre ville ou en pleine nature</p>
 
-<section><!--barre de recherche--></section>
+<section id="form">
+    <div id="map">
+    <i class="fas fa-map-marker-alt"></i><!--logo maps-->
+</div>
+    <form method="post" action="traiement.php">
+        <p>
+            <label for="search"></label><br/>
+            <input id="search" placeholder="Marseille,France" type="search" />
+        </p>
+        </form>
+        <input class="bouton" type="submit" value="Rechercher" />
+
+</section>
 
 <section><!--barre des filtres--></section>
 
