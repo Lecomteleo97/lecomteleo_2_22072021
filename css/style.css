@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Raleway',Arial, serif ;
+    width: 1310px;
 }
 header{
     display: flex;
@@ -16,8 +17,8 @@ header{
 .logo{
     width: 95px;
     height: 45px;
-    margin-left: 15px;
     margin-top: 35px;
+    margin-left: 50px;
 
 }
 #navigation li{
@@ -61,10 +62,49 @@ a{
 h1{
     border: 0px black solid;
     font-size: 1.25em;
-    margin-left: 20px;
     line-height: 1px;
+    margin-left: 50px;
 }
 h1+p{
     border: 0px black solid;
-    margin-left: 20px;
- }    
+    margin-left: 49px;
+ }  
+#search{
+    border: 1px solid #F2F2F2;
+    position: absolute;
+    top: 182px;
+    height: 43px;
+    width: 220px;
+    font-size: 1em;
+}
+#form{
+    border: 0px black solid;
+    display: flex;
+    flex-direction: row;
+    height: 43px;
+    margin-left: 55px;
+}
+i{
+    border: 0px black solid;
+    padding-top: 12px;
+    border-radius: 25% 0 0 25%;
+}
+#map{
+    border: 0px blue solid;
+    height: 43px;
+    width: 43px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 25% 0 0 25%;
+}
+.bouton{
+    width: 120px;
+    margin-left: 220px;
+    background-color: #0065FC;
+    border-radius: 0 12px 12px 0;
+    border: 0px black solid;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
