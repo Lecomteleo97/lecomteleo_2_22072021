@@ -1,9 +1,11 @@
 @font-face {
-    font-family: 'Raleway';
-    src: url('Raleway-VariableFont_wght.ttf');
-}
+        font-family: 'Raleway Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Raleway Regular'), url('raleway2/Raleway-Regular.woff') format('woff');
+        }
 body{
-    font-family: 'Raleway',Arial, serif ;
+    font-family: 'Raleway Regular',Arial, serif ;
     width: 1310px;
 }
 header{
@@ -106,5 +108,117 @@ i{
     color: white;
     text-align: center;
     font-size: 1em;
+    font-weight: bold;
+}
+#filtres{
+    border:0px black solid;
+    display:inline-flex;
+    flex-direction: row;
+    width: 840px;
+    justify-content: space-around;
+    margin-left: 55px;
+    margin-top: 27px;
+}
+.cash{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50% 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.child{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50% 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+ }
+.heart{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50% 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.dog{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50% 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.casheco{
+    border: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 45px;
+    border-radius: 28px 28px 28px 28px;
+    border-left: none;
+}
+.eco{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.childfam{
+    border: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    width: 140px;
+    height: 45px;
+    border-radius: 28px 28px 28px 28px;
+    border-left: none;   
+}
+.fam{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.heartrom{
+    border: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 45px;
+    border-radius: 28px 28px 28px 28px;
+    border-left: none;
+}
+.rom{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.doganim{
+    border: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: 45px;
+    border-radius: 28px 28px 28px 28px;
+    border-left: none;
+}
+.anim{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.casheco:hover{
+    background-color:  #0065FC;
+    color: white;
+}
+.childfam:hover{
+    background-color:  #0065FC;
+    color: white;
+}
+.heartrom:hover{
+    background-color:  #0065FC;
+    color: white;
+}
+.doganim:hover{
+    background-color:  #0065FC;
+    color: white;
+}
+.fil{
     font-weight: bold;
 }
