@@ -1,9 +1,12 @@
 @font-face {
-    font-family: 'Raleway';
-    src: url('Raleway-VariableFont_wght.ttf');
-}
+        font-family: 'Raleway Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Raleway Regular'), url('raleway2/Raleway-Regular.woff') format('woff');
+        }
 body{
-    font-family: 'Raleway',Arial, serif ;
+    font-family: 'Raleway Regular',Arial, serif ;
+    width: 1310px;
 }
 header{
     display: flex;
@@ -11,12 +14,13 @@ header{
 	justify-content: space-between;
 	background-color: white;
 	margin-top: 0;
+    height: 110px;
 }
 .logo{
     width: 95px;
     height: 45px;
-    margin-left: 15px;
     margin-top: 35px;
+    margin-left: 50px;
 
 }
 #navigation li{
@@ -55,6 +59,100 @@ span.inscrire{
 }
 a{
     text-decoration: none;
-    color:black;
-    
+    color:black;   
 }
+h1{
+    border: 0px black solid;
+    font-size: 1.25em;
+    line-height: 1px;
+    margin-left: 50px;
+}
+h1+p{
+    border: 0px black solid;
+    margin-left: 49px;
+ }  
+#search{
+    border: 1px solid #F2F2F2;
+    position: absolute;
+    top: 183px;
+    height: 44px;
+    width: 220px;
+    font-size: 1em;
+}
+#form{
+    border: 0px black solid;
+    display: flex;
+    flex-direction: row;
+    height: 43px;
+    margin-left: 55px;
+}
+.map{
+    height: 32px;
+    width: 43px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 25% 0 0 25%;
+    padding-top: 12px;
+}
+.bouton{
+    width: 120px;
+    margin-left: 220px;
+    background-color: #0065FC;
+    border-radius: 0 12px 12px 0;
+    border: 0px black solid;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+#filtres{
+    border:0px black solid;
+    display:inline-flex;
+    flex-direction: row;
+    width: 840px;
+    justify-content: space-around;
+    margin-left: 55px;
+    margin-top: 27px;
+}
+.filter-icon{
+    width: 46px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50% 50%;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding-top: 15px;
+}
+.filter-bouton{
+    border: 2px solid #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    border-radius: 28px 28px 28px 28px;
+    border-left: none;
+}
+.filter-text{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.casheco{
+    width: 175px;
+}
+.childfam{
+    width: 140px;
+}
+.heartrom{
+    width: 175px;
+}
+
+.doganim{
+    width: 220px;
+}
+.filter-bouton:hover{
+    background-color:  #0065FC;
+    color: white;
+}
+.fil{
+    font-weight: bold;
+}
+

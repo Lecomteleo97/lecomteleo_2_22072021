@@ -1,64 +1,156 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<meta charset="utf-8"/>
 
-<link rel="stylesheet" href="css/style.css" />
-<title></title>
+<head>
+    <meta charset="utf-8" />
+
+    <script src="https://kit.fontawesome.com/a62f33971a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
 </head>
+
 <body></body>
 
-    <header>
-        <!--logo--><img src="image/logo.png" class="logo" alt="logo" />
+<header>
+    <!--logo--><img src="image/logo.png" class="logo" alt="logo" />
 
-        <nav>
-            <ul id="navigation">
-             <li> <a href="#hébergements" title="Cliquez ici !" ><span class="heberg"> Hébergements</span></a></li>
+    <nav>
+        <ul id="navigation">
+            <li> <a href="#hébergements" title="Cliquez ici !"><span class="heberg"> Hébergements</span></a></li>
             <li><a href="#activités" title="Cliquez ici !"><span class="acti">Activités</a></li>
             <li><a href="" title="Cliquez ici !"><span class="inscrire">S'inscrire</a></li>
-            </ul>
-         </nav> 
-    </header>
+        </ul>
+    </nav>
+</header>
 
-    <p><!--texte--></p>
+<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+<p>En plein centre ville ou en pleine nature</p>
 
-<section><!--barre de recherche--></section>
+<section id="form">
+    <div class="map">
+        <i class="fas fa-map-marker-alt"></i>
+        <!--logo maps-->
+    </div>
+    <form method="post" action="traiement.php">
+        <p>
+            <label for="search"></label><br />
+            <input id="search" placeholder="Marseille,France" type="search" />
+        </p>
+    </form>
+    <input class="bouton" type="submit" value="Rechercher" />
+</section>
 
-<section><!--barre des filtres--></section>
+<section id="filtres">
+    <!--barre des filtres-->
+    <div class="fil">
+        <p>Filtres</p>
+    </div>
 
- <article><!--hébergment a marseille-->
+    <div class="filter-bouton casheco">
+        <div class="filter-icon"><i class="fas fa-money-bill-wave"></i></div>
+        <div class="filter-text">
+            <p>Economique</p>
+        </div>
+    </div>
+
+    <div class="filter-bouton childfam">
+        <div class="filter-icon"><i class="fas fa-child"></i></div>
+        <div class="filter-text">
+            <p>Familial</p>
+        </div>
+    </div>
+
+    <div class="filter-bouton heartrom">
+        <div class="filter-icon"><i class="fas fa-heart"></i></div>
+        <div class="filter-text">
+            <p>Romantique</p>
+        </div>
+    </div>
+
+    <div class="filter-bouton doganim">
+        <div class="filter-icon"><i class="fas fa-dog"></i></div>
+        <div class="filter-text">
+            <p>Animaux autorisés</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+<article>
+    <!--hébergment a marseille-->
     <p></p>
-        <section><!--Photo1--></section>
-        <section><!--Photo2--></section>
-        <section><!--Photo3--></section>
-        <section><!--Photo4--></section>
-        <section><!--Photo5--></section>
-        <section><!--Photo6--></section>
-    <p></p>    
+    <section>
+        <!--Photo1-->
+    </section>
+    <section>
+        <!--Photo2-->
+    </section>
+    <section>
+        <!--Photo3-->
+    </section>
+    <section>
+        <!--Photo4-->
+    </section>
+    <section>
+        <!--Photo5-->
+    </section>
+    <section>
+        <!--Photo6-->
+    </section>
+    <p></p>
 </article>
 
-<aside><!--les plus populaires-->
+<aside>
+    <!--les plus populaires-->
     <p></p>
-       <section><!--Photo1--></section>
-       <section><!--Photo2--></section>
-       <section><!--Photo3--></section>
+    <section>
+        <!--Photo1-->
+    </section>
+    <section>
+        <!--Photo2-->
+    </section>
+    <section>
+        <!--Photo3-->
+    </section>
     <p></p>
 </aside>
 
-<article><!--activité a Marseille-->
-    <section><!--Photo1--></section>
-    <section><!--Photo2--></section>
-    <section><!--Photo3--></section>
-    <section><!--Photo4--></section>
-    <section><!--Photo5--></section>
-    <section><!--Photo6--></section>
+<article>
+    <!--activité a Marseille-->
+    <section>
+        <!--Photo1-->
+    </section>
+    <section>
+        <!--Photo2-->
+    </section>
+    <section>
+        <!--Photo3-->
+    </section>
+    <section>
+        <!--Photo4-->
+    </section>
+    <section>
+        <!--Photo5-->
+    </section>
+    <section>
+        <!--Photo6-->
+    </section>
 </article>
 
 <footer>
-    <section><!--colone 1--></section>
-    <section><!--colone 2--></section>
-    <section><!--colone 3--></section>
-        
+    <section>
+        <!--colone 1-->
+    </section>
+    <section>
+        <!--colone 2-->
+    </section>
+    <section>
+        <!--colone 3-->
+    </section>
+
 </footer>
 
 </html>
