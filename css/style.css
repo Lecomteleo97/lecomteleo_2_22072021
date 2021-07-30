@@ -121,7 +121,7 @@ h1+p{
     border-radius: 50% 50%;
     background-color: #DEEBFF;
     color: #0065FC;
-    padding-top: 15px;
+    padding-top: 13px;
 }
 .filter-bouton{
     border: 2px solid #F2F2F2;
@@ -154,5 +154,13 @@ h1+p{
 }
 .fil{
     font-weight: bold;
+}
+.fa-info-circle{
+    background-color: #0065FC;
+    color: white;
+    border-radius: 50% 50%;
+    margin-right: 10px;
+    margin-left: 55px;
+    margin-top: 30px;
 }
 
