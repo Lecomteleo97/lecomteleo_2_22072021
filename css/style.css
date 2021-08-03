@@ -38,7 +38,7 @@ header{
     width: 400px;
     height: 30px;
 }
-span:hover{
+span[class*="nav"]:hover{
     border-top: 2px solid #0065FC;
     padding-top: 40px;
     color: #0065FC
@@ -163,4 +163,157 @@ h1+p{
     margin-left: 55px;
     margin-top: 30px;
 }
+#hébergement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 0px black solid;
+    width: 800px;
+    height: 560px;
+    background-color: #F2F2F2;
+    margin-left: 55px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+h2{
+    padding-top: 25px;
+    font-size: 1.25em;
+    border: 0px black solid;
+    width: 700px;
+    height: 30px;
+    margin-left: 15px;
+}
+.héberg-picture{
+    width: 210px;
+    height: 120px;
+    border: 4px white solid;
+    border-radius: 15px 15px 0 0;
+}
+.texte-héberg{
+    margin-top: -25px;
+    padding-left: 10px;
+    border: 1px white solid;
+    height: 70px;
+    font-size: 0.8em;
+    line-height: 3px;
+    width: 206px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0 0 15px 15px;
+}
+.fa-star{
+    color: #0065FC;
+}
+.vide{
+    color:#DEEBFF;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+div[class*=photo-bouton]{
+  width: 218px;
+  height: 179px;
+  border: 0px black solid;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 2px 2px 5px 2px grey;
+}
+.photo-bouton-1, .photo-bouton-2, .photo-bouton-3{
+    margin-top: -30px;
+}
+.photo-bouton-4, .photo-bouton-5, .photo-bouton-6{
+    margin-top: 5px;
+}
+.photo-bouton-1{
+    margin-left: 15px;
+    margin-right: 0px;
+}
+.photo-bouton-3{
+    margin-right: 17px;
+}
+.photo-bouton-4{
+    margin-left: 15px;
+}
+.photo-bouton-5{
+ }
+.photo-bouton-6{
+    margin-right: 17px;
+}
+.aff-plus{
+    width: 700px;
+    height: 30px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    border: 0px black solid;
+}
+#populaire{
+    width: 380px;
+    height: 560px;
+    border: 0px black solid;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+#héberg-populaire{
+    display: flex;
+    justify-content: space-around;
+}
+.texte-icon-populaire{
+    width: 350px;
+    height: 30px;
+    border: 0px black solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa-chart-line{
+    color: black;
+    border: 0px black solid;
+    padding-top: 20px;
+    width: 30px;
+    height: 25px;
+    font-size: 1.3em;
+}
+h3{
+    font-size: 1.25em;
+}
+.cadre-photo-pop{
+    width: 300px;
+    height: 450px;
+    border: 0px solid black;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pop-picture-1, .pop-picture-2, .pop-picture-3{
+    width: 115px;
+    height: 125px;
+    border-radius: 15px 0 0 15px;
+}
+.pop-bouton-1, .pop-bouton-2, .pop-bouton-3{
+    width: 292px;
+    height: 125px;
+    border: 4px white solid;
+    border-radius: 15px;
+    font-size: 0.8em;
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px grey;
+}
+.texte-pop-1, .texte-pop-2, .texte-pop-3{
+    padding-left: 10px;
+    line-height: 10px;
+}
+.star-icon-pop-2{
+    margin-top: 40px;
+}
 
+.star-icon-pop{
+    margin-top: 60px;
+}
