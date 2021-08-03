@@ -217,7 +217,7 @@ div[class*=photo-bouton]{
   height: 179px;
   border: 0px black solid;
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 2px 2px 5px 2px grey;
+  box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
 }
 .photo-bouton-1, .photo-bouton-2, .photo-bouton-3{
     margin-top: -30px;
@@ -304,7 +304,7 @@ h3{
     font-size: 0.8em;
     display: flex;
     background-color: white;
-    box-shadow: 2px 2px 5px 2px grey;
+    box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
 }
 .texte-pop-1, .texte-pop-2, .texte-pop-3{
     padding-left: 10px;
@@ -316,4 +316,90 @@ h3{
 
 .star-icon-pop{
     margin-top: 60px;
+}
+h4{
+    margin-top: 60px;
+    margin-left: 70px;
+    font-size: 1.25em;
+}
+#activités{
+    width: 1225px;
+    height: 400px;
+    border: 0px black solid;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.acti-bouton-1, .acti-bouton-4{
+    height: 400px;
+    width: 280px;
+    border: 0px black solid;
+    box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
+    border-radius: 15px;
+}
+.acti-picture-1, .acti-picture-4{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+}
+.texte-acti-1, .texte-acti-4{
+    border-radius: 0 0 15px 15px;
+    border: 1px white solid;
+    margin-top: -6px;
+    background-color: white;
+    font-size: 0.9em;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.cadre-acti-bouton-1, .cadre-acti-bouton-2{
+    width: 270px;
+    height: 400px;
+    border: 0px black solid;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.acti-bouton-2{
+    height: 215px;
+    width: 270;
+    border: 0px black solid;
+    box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
+    border-radius: 15px;
+}
+.acti-picture-2{
+    width: 270px;
+    height: 165px;
+    border-radius: 15px 15px 0 0;
+}
+.acti-bouton-3{
+    width: 270px;
+    height: 150px;
+    border: 0px black solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
+}
+.acti-picture-3{
+    width: 270px;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+}
+.texte-acti-2, .texte-acti-3{
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+.acti-bouton-5, .acti-bouton-6{
+        height: 185px;
+        width: 270;
+        border: 0px black solid;
+        box-shadow: 2px 2px 5px 2px rgb(196, 191, 191);
+        border-radius: 15px;
+}
+.acti-picture-5, .acti-picture-6{
+    width: 270px;
+    height: 130px;
+    border-radius: 15px 15px 0 0;
+}
+.texte-acti-5, .texte-acti-6{
+    font-size: 0.9em;
+    padding-left: 20px;
 }
