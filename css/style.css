@@ -6,7 +6,9 @@
         }
 body{
     font-family: 'Raleway Regular',Arial, serif ;
-    width: 1310px;
+   /* width: 1310px;*/
+    margin: 0;
+    padding: 0;
 }
 header{
     display: flex;
@@ -402,4 +404,22 @@ h4{
 .texte-acti-5, .texte-acti-6{
     font-size: 0.9em;
     padding-left: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    height: 210px;
+    border:0px black solid;
+    margin-top: 55px;
+    background-color: #F2F2F2;
+    padding-left: 50px;
+    padding-top:30px;
+    padding-right: 100px;
+}
+.col-footer{
+    width: 280px;
+    height: 200px;
 }
