@@ -6,9 +6,6 @@
         }
 body{
     font-family: 'Raleway Regular',Arial, serif ;
-   /* width: 1310px;*/
-    margin: 0;
-    padding: 0;
 }
 header{
     display: flex;
@@ -40,7 +37,7 @@ header{
     width: 400px;
     height: 30px;
 }
-span[class*="nav"]:hover{
+span[class*="nav1"]:hover{
     border-top: 2px solid #0065FC;
     padding-top: 40px;
     color: #0065FC
@@ -48,6 +45,7 @@ span[class*="nav"]:hover{
 span.heberg{
     padding-left: 30px;
     padding-right: 30px;
+    border: 1px black solid;
 }
 span.acti{
     padding-left: 25px;
@@ -76,7 +74,7 @@ h1+p{
 #search{
     border: 1px solid #F2F2F2;
     position: absolute;
-    top: 175px;
+    top: 183px;
     height: 44px;
     width: 220px;
     font-size: 1em;
@@ -237,8 +235,6 @@ div[class*=photo-bouton]{
 .photo-bouton-4{
     margin-left: 15px;
 }
-.photo-bouton-5{
- }
 .photo-bouton-6{
     margin-right: 17px;
 }
@@ -423,3 +419,73 @@ footer{
     width: 280px;
     height: 200px;
 }
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body{
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 600px){
+body{
+    width: 375px;
+    margin: 0;
+    padding: 0;
+}
+#activités{
+    width: 375px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    
+}
+header{
+    border: 1px black solid;
+    margin:0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 120px;
+}
+#navigation{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content:space-around;
+    width: 375px;
+    height: 50px;
+    padding-top: 0px;
+}
+/*nav{
+    width: 375px;
+    height: 40px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}*/
+#search{
+    top:300px;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+.li-3{
+    order: 1;
+    margin-top: -70px;
+    margin-left: 260px;
+    padding-top: 0px;
+}
+.li-1{
+    order: 2;
+    margin-top: -50px;
+    padding-left: -20px;
+}
+.li-2{
+    order:3;
+    margin-top: -30px;
+    margin-right: 100px;
+}
+li{
+    display: flex;
+}
+}
+
