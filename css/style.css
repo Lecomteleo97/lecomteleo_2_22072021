@@ -586,5 +586,48 @@ h1+p{
 .fa-info-circle{
     margin-bottom: 40px;
 }
+#héberg-populaire{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#populaire{
+    order: 1;
+    width: 375px;
+    border-radius: 0;
+}
+#hébergement{
+    order:2;
+    width: 375px;
+    height: auto;
+    flex-direction: column;
+    margin:0;
+    background-color: white;
+}
+.héberg-picture{
+    width: 310px;
+}
+.texte-héberg{
+    width: 310px;
+}
+div[class*=photo-bouton]{
+    margin:auto;
+    width: 313px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 9px 1px rgba(113,108,108,0.77);
+-webkit-box-shadow: 0px 0px 9px 1px rgba(113,108,108,0.77);
+-moz-box-shadow: 0px 0px 9px 1px rgba(113,108,108,0.77);
+}
+.aff-plus{
+    margin-left: 30px;
+}
+.pop-bouton-1, .pop-bouton-2, .pop-bouton-3{
+    margin-bottom: 15px;
+}
+#activités{
+    width: 375px;
+    height: auto;
+    margin-left: 0px;
+}
 }
 
