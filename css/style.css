@@ -4,8 +4,14 @@
         font-weight: normal;
         src: local('Raleway Regular'), url('raleway2/Raleway-Regular.woff') format('woff');
         }
+html{
+    width: 1370px;
+    padding: 0;
+}        
+   
 body{
     font-family: 'Raleway Regular',Arial, serif ;
+    width: 1370px;
 }
 header{
     display: flex;
@@ -263,6 +269,7 @@ div[class*=photo-bouton]{
 #héberg-populaire{
     display: flex;
     justify-content: space-between;
+    width: 1312px;
 }
 .texte-icon-populaire{
     width: 350px;
@@ -420,6 +427,7 @@ footer{
     padding-left: 50px;
     padding-top:30px;
     padding-right: 100px;
+    margin-bottom: 0;
 }
 .col-footer{
     width: 280px;
@@ -429,9 +437,11 @@ footer{
     display: none;
 }
 @media screen and (max-width: 600px){
-    
+  html{
+      width: auto;
+  }  
 body{
-    width: 375px;
+   width: auto;
     margin: auto;
     padding: 0px;
 }
@@ -648,10 +658,13 @@ footer{
 }
 }
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-
+html{
+    width: auto;
+}
 body{
     margin: 0;
     padding: 0;
+    width: auto;
 
 }
 header{
@@ -685,6 +698,7 @@ header{
 #héberg-populaire{
     justify-content: flex-start;
     flex-direction: column;
+    width: auto;
 }
 .texte-icon-populaire{
     margin: auto;
@@ -709,12 +723,27 @@ img[class*=pop-picture]{
     order:2;
     margin: 0;
     width: auto;
+    height: 750px;
     background-color: white;
+    align-content: space-between;
+   
 }
 #hébergements a {
-    width: 33%;
+    width: 45%;
     margin: auto;
+    padding: auto;
 }
+div[class*=photo-bouton]{
+    margin: auto;
+    width: 300px;
+}
+.héberg-picture{
+    width: 292px;
+}
+.texte-héberg{
+    width: 284px;
+}
+
 #activités{
     width: auto;
     padding: 3%;
@@ -754,6 +783,7 @@ footer{
 .col-footer{
     width: 220px;
 }
+
 
 
 
