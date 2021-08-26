@@ -5,13 +5,15 @@
         src: local('Raleway Regular'), url('raleway2/Raleway-Regular.woff') format('woff');
         }
 html{
-    width: 1370px;
+    /*width: 1370px;*/
     padding: 0;
+    /*width: auto;*/
 }        
    
 body{
     font-family: 'Raleway Regular',Arial, serif ;
-    width: 1370px;
+   /* width: 1370px;*/
+   width: auto;
 }
 header{
     display: flex;
@@ -269,7 +271,8 @@ div[class*=photo-bouton]{
 #héberg-populaire{
     display: flex;
     justify-content: space-between;
-    width: 1312px;
+    /*width: 1312px;*/
+    width: auto;
 }
 .texte-icon-populaire{
     width: 350px;
@@ -334,10 +337,12 @@ h4{
     font-size: 1.25em;
 }
 #activités{
-    width: 1225px;
+    /*width: 1225px;*/
+    width: auto;
     height: 400px;
     border: 0px black solid;
-    margin-left: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     justify-content: space-between;
 }
@@ -439,9 +444,10 @@ footer{
 @media screen and (max-width: 600px){
   html{
       width: auto;
+      /*-webkit-text-size-adjust: 100%;*/
   }  
 body{
-   width: auto;
+   width: 375px;
     margin: auto;
     padding: 0px;
 }
