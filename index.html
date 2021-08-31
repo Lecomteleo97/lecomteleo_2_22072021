@@ -25,11 +25,11 @@
             </ul>
         </nav>
     </header>
-
+<main>
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <p>En plein centre ville ou en pleine nature</p>
 
-    <section id="form">
+    <div id="form">
         <div class="map">
             <i class="fas fa-map-marker-alt"></i>
             <!--logo maps-->
@@ -42,9 +42,9 @@
         </form>
         <input class="bouton" type="submit" value="Rechercher" />
         <div class="bouton-media"><i class="fas fa-search"></i></div>
-    </section>
+    </div>
 
-    <section id="filtres">
+    <div id="filtres">
         <!--barre des filtres-->
         <div class="fil">
             <p>Filtres</p>
@@ -77,7 +77,7 @@
                 <p>Animaux autorisés</p>
             </div>
         </div>
-    </section>
+    </div>
 
     <div class="p-info"><i class="fas fa-info-circle"></i><p class="txt-info"> Plus de 500 logements sont disponible dans cette ville</p></div>
 
@@ -85,7 +85,8 @@
         <article id="hébergements">
             <!--hébergment a marseille-->
             <h2>Hébergements à Marseille</h2> <br />
-            <a href="#">
+          <div id="box-héberg">
+                <a href="#">
                 <div class="photo-bouton-1">
                     <img class="héberg-picture" src="image/hébergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                         alt="Auberge de la cannebiere" title="cliquez ici!" />
@@ -160,7 +161,7 @@
                     <img class="héberg-picture hp-5" src="image/hébergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                         alt="Auberge le panier" title="cliquez ici!" />
                     <div class="texte-héberg héberg-5">
-                        <p><em>Auberge le panierr</em></p>
+                        <p><em>Auberge le panier</em></p>
                         <p>Nuit à partir de <em>23€</em></p>
                         <div><i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -174,7 +175,7 @@
 
             <a href="#">
                 <div class="photo-bouton-6">
-                    <img class="héberg-picture hp-6" src="image/hébergements/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                    <img class="héberg-picture hp-6" src="image/hébergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                         alt="Hôtel chez Amina" title="cliquez ici!" />
                     <div class="texte-héberg héberg-6">
                         <p><em>Hôtel chez Amina</em></p>
@@ -188,6 +189,7 @@
                     </div>
                 </div>
             </a>
+            </div>
             <p class="aff-plus"><em>Afficher plus</em></p>
         </article>
 
@@ -255,11 +257,11 @@
 
         </aside>
     </div>
-
+    <article id="box-acti">
     <h4><em>Activités à Marseille</em></h4>
-    <article id="activités">
+    <div id="activités">
 
-        <a href="#">
+        <a class="clic-acti-1" href="#">
             <div class="acti-bouton-1">
                 <img class="acti-picture-1" src="image/activités/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                     alt="Vieux port" title="cliquez ici!" />
@@ -293,7 +295,7 @@
             </a>
         </div>
 
-        <a href="#">
+        <a class="clic-acti-2" href="#">
             <div class="acti-bouton-4">
                 <img class="acti-picture-4" src="image/activités/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                     alt="Parc National des Calanques" title="cliquez ici!" />
@@ -325,26 +327,27 @@
                 </div>
             </a>
         </div>
+    </div>
     </article>
-
-    <footer>
-        <section class="col-footer c-f-1">
+</main>
+  <footer>
+        <div class="col-footer c-f-1">
             <p><em>A propos</em></p>
             <p>Fonctionnement du site</p>
             <p>Conditions générales de vente</p>
             <p>données et confidentialité</p>
-        </section>
-        <section class="col-footer c-f-2">
+        </div>
+        <div class="col-footer c-f-2">
             <p><em>Nos hébergements</em></p>
             <p>Charte qualité</p>
             <p>Soumettre vôtre hôtel</p>
-        </section>
-        <section class="col-footer c-f-3">
+        </div>
+        <div class="col-footer c-f-3">
             <p><em>Assistance</em></p>
             <p>centre d'aide</p>
             <p>Nous contacter</p>
 
-        </section>
+        </div>
 
     </footer>
 </body>
