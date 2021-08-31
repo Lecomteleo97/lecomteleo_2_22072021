@@ -737,7 +737,7 @@ img[class*=pop-picture]{
 #hébergements a {
     width: 45%;
     margin: auto;
-    padding: auto;
+    /*padding: auto;*/
 }
 div[class*=photo-bouton]{
     margin: auto;
